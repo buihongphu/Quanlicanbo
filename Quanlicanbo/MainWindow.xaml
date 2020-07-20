@@ -1,0 +1,22 @@
+﻿<Window x:Class="Quanlicanbo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quanlicanbo"
+        mc:Ignorable="d"
+        Title="Quản lí cán bộ" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="Dulieu" HorizontalAlignment="Left" Height="135" Margin="30,50,0,0" VerticalAlignment="Top" Width="435"/>
+        <Button x:Name="btnKetnoi" Content="Kết nối" HorizontalAlignment="Left" Margin="30,255,0,0" VerticalAlignment="Top" Width="50" Click="btnKetnoi_Click"/>
+        <Button x:Name="btnDulieu" Content="Xem dữ liệu" HorizontalAlignment="Left" Margin="82,255,0,0" VerticalAlignment="Top" Width="75" Click="btnDulieu_Click"/>
+        <Label x:Name="lblPhongBan" Content="Phòng Ban" HorizontalAlignment="Left" Margin="520,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTenPhong" Content="Tên Phòng Ban" HorizontalAlignment="Left" Margin="520,102,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbxPhongBAn" HorizontalAlignment="Left" Height="23" Margin="635,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbxTenPhong" HorizontalAlignment="Left" Height="23" Margin="635,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="tbnThem" Content="Thêm Phòng Ban" HorizontalAlignment="Left" Margin="159,255,0,0" VerticalAlignment="Top" Width="94" Click="tbnThem_Click"/>
+        <Button x:Name="btnXoa" Content="Xóa Phòng Ban" HorizontalAlignment="Left" Margin="256,255,0,0" VerticalAlignment="Top" Width="90" Click="btnXoa_Click"/>
+        <Button x:Name="btnCapNhat" Content="Cập Nhật Phòng Ban" HorizontalAlignment="Left" Margin="349,255,0,0" VerticalAlignment="Top" Width="120" Click="btnCapNhat_Click"/>
+
+    </Grid>
+</Window>
